@@ -1,0 +1,167 @@
+@media only screen and (min-device-width: 1441px) {
+  .modal {
+    .modal_card {
+      top: 10%;
+      left: 0;
+      max-width: 75%;
+      max-height: 75%;
+      margin: 0% auto;
+      box-sizing: border-box;
+
+      .modal_card_header {
+        height: 6%;
+        padding: 1%;
+
+        span {
+          width: 75%;
+        }
+
+        button {
+          padding: 0.5%;
+          width: 5%;
+        }
+      }
+
+      .modal_card_content {
+        height: 88%;
+        padding: 1%;
+        box-sizing: border-box;
+
+        .modal_card_content_img {
+          height: 93%;
+          width: auto;
+          padding: 1%;
+          margin: 0 auto;
+        }
+
+        .modal_card_content_desc {
+          padding: 0.5%;
+          width: 35%;
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  header {
+    width: 100%;
+    nav {
+      .menu {
+        max-width: 82%;
+        margin: 0 auto;
+        width: 100%;
+      }
+    }
+  }
+
+  .breadcrumb {
+    ul {
+      margin: 3% auto;
+      width: 82%;
+    }
+  }
+
+  .group3545 {
+    max-width: 100%;
+    padding: 0 0 0 9%;
+
+    .group3545_cont {
+      max-width: 100%;
+      display: block;
+      position: relative;
+
+      .group3545_img {
+        max-width: 100%;
+      }
+
+      span {
+        padding: 0.6% 0.14% 0% 0%;
+        max-width: 91.14%;
+      }
+    }
+  }
+
+  .groups_info {
+    max-width: 100%;
+
+    .groups_info_37_38 {
+      margin: 2.7% auto 2.35% 0;
+      max-width: 53.75%;
+
+      .group3537 {
+        max-width: 100%;
+        position: relative;
+
+        .group3537_img_first {
+          max-width: 84.94%;
+        }
+
+        .group3537_img_second {
+          margin-top: 19.13%;
+          margin-left: 45.66%;
+          max-width: 47.45%;
+          top: 0;
+          left: 0;
+        }
+
+        .group3537_text {
+          margin: 48.22% 0% 0% 16.8%;
+          max-width: 74.3%;
+        }
+      }
+
+      .group3538 {
+        max-width: 78.2%;
+        margin: 4.39% 0 0 16.8%;
+
+        p:first-child {
+          max-width: 100%;
+        }
+
+        .group3538_list {
+          max-width: 100%;
+          margin: 3.8% 0% 3.1% 0%;
+        }
+
+        p:last-child {
+          max-width: 100%;
+        }
+      }
+    }
+
+    .group3536 {
+      padding: 0 5% 0 0;
+      max-width: 46.25%;
+      margin: 1.7% auto 0 auto;
+
+      h5 {
+        width: 90.3%;
+        margin-bottom: 5%;
+      }
+
+      p {
+        width: 90.3%;
+      }
+    }
+
+    .group0000 {
+      margin: 6.3% 0 0 auto;
+      max-width: 46.25%;
+      // max-width: 46.2%;
+
+      .group0000_img_first {
+        max-width: 100%;
+      }
+    }
+  }
+
+  .gallery {
+    margin: 7.05% auto 5.13% auto;
+
+    .gallery_arrows {
+      .gallery_arrow {
+        padding: 1%;
+      }
+    }
+  }
+}

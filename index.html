@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/ico" />
+    <title>Landing page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      rel="stylesheet"
+      media="(min-device-width: 1110px)"
+      href="css/styles.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      media="(max-device-width: 1109px)"
+      href="css/mobile_styles.css"
+      type="text/css"
+    />
+    <meta name="robots" content="noindex" />
+  </head>
+
+  <body>
+    <div id="app">
+      <modal
+        v-if="isModalActiv"
+        @window-close="onModalWindowClose"
+        :modal-data="modalData"
+      ></modal>
+
+      <header>
+        <nav>
+          <div class="menu">
+            <span class="logo">
+              <a href="#">LOGO</a>
+            </span>
+            <ul class="links">
+              <li><a class="links_main" href="#">Startseite</a></li>
+              <li><a class="links_active" href="#">Über uns</a></li>
+              <li><a class="" href="#">Kontakt</a></li>
+            </ul>
+            <span class="burger"></span>
+          </div>
+        </nav>
+      </header>
+
+      <section class="breadcrumb">
+        <ul>
+          <li>
+            <a href="#" class="breadcrumb_link">
+              <span class="breadcrumb_link_img">
+                <img src="img/home.svg" />
+              </span>
+              <span class="breadcrumb_link_text">Startseite</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="breadcrumb_link">
+              <span class="breadcrumb_link_img">
+                <img src="img/chevron-right.svg" />
+              </span>
+              <span class="breadcrumb_link_text">Uber Uns</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="group3545">
+        <div class="group3545_cont">
+          <div class="group3545_img">
+            <img src="img/group3529.svg" alt="" />
+          </div>
+          <span>Über Uns</span>
+        </div>
+      </section>
+
+      <section class="groups_info">
+        <div class="groups_info_37_38">
+          <section class="group3537">
+            <div class="group3537_img_first">
+              <img src="img/group3537_img_first.svg" alt="" />
+            </div>
+            <div class="group3537_img_second">
+              <img src="img/group3537_img_second.svg" alt="" />
+            </div>
+            <p class="group3537_text">
+              Nunc feugiat imperdiet dolor, sit amet consectetur tortor
+              facilisis ac. Vivamus quam neque, euismod porttitor magna et,
+              finibus tincidunt justo. Nullam vehicula velit sed diam sagittis,
+              eget pretium nisi mollis. Etiam in risus nibh. Curabitur feugiat
+              pulvinar enim, in blandit massa suscipit id. Donec mollis vel
+              lacus sit amet rhoncus.
+            </p>
+          </section>
+          <section class="group3538">
+            <p>
+              Pellentesque tempus nunc sit amet erat placerat, eu varius sem
+              sollicitudin:
+            </p>
+            <ul class="group3538_list">
+              <li>Nam in massa gravida</li>
+              <li>Nam in massa gravida</li>
+              <li>Nam in massa gravida</li>
+            </ul>
+            <p>
+              Mauris sollicitudin lorem in orci porta, ac tincidunt neque
+              consequat. Sed dictum diam vehicula aliquet vehicula. Vivamus
+              ultrices facilisis sollicitudin. Duis vel mi non eros porttitor
+              imperdiet. Pellentesque tempor nunc sed mi laoreet venenatis.
+            </p>
+          </section>
+        </div>
+
+        <section class="group3536">
+          <h5>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+            dapibus, mauris efficitur ornare rhoncus, libero ex rutrum tortor,
+            ut viverra mi odio ac purus. Pellentesque convallis id lectus auctor
+            efficitur. Donec faucibus, magna quis tristique aliquet
+          </h5>
+          <p>
+            Fusce ac finibus ipsum, vel mollis lorem. Interdum et malesuada
+            fames ac ante ipsum primis in faucibus. Pellentesque suscipit quam
+            non nulla sollicitudin hendrerit. Praesent dictum tempus neque.
+            Donec et lacus quis felis ultrices mattis.
+          </p>
+          <br />
+          <p>
+            Quisque tempor aliquet dui, sed dignissim augue varius vel. Maecenas
+            ut lacinia orci. Sed efficitur finibus arcu in porta. Donec sed
+            tempus neque, eu fringilla orci. Sed tincidunt nulla quis est
+            fringilla rhoncus. In neque purus, suscipit id hendrerit quis,
+            pulvinar faucibus felis.<br />
+            In semper sapien sit amet dolor lobortis, interdum mollis sapien
+            pretium. Phasellus euismod ullamcorper turpis vel pretium. Vivamus
+            id convallis enim. Pellentesque eleifend felis sit amet elit
+            faucibus, ac auctor urna feugiat. Sed eu sagittis urna. Pellentesque
+            nunc felis, molestie a mauris et, pellentesque ultricies velit.
+            Pellentesque elementum eu ante lacinia dapibus. In facilisis dolor
+            ac felis vehicula, vitae tincidunt libero hendrerit.
+          </p>
+          <br />
+          <p>
+            Donec ultricies lorem in mi tincidunt ornare. Etiam non turpis
+            lacus. Donec scelerisque tellus in turpis tristique, et imperdiet
+            sem mollis. Nam fermentum non sem id viverra. Sed quis arcu rutrum,
+            ornare tortor id, lobortis metus. Fusce ornare ligula eu urna
+            dignissim, ut condimentum odio tempor. Proin eu est enim. Nam lacus
+            leo, accumsan nec quam nec, fermentum molestie orci. Morbi in nisi
+            vitae arcu rutrum ornare eu at nulla.
+          </p>
+        </section>
+
+        <section class="group0000">
+          <div class="group0000_img_first">
+            <img src="img/group0000_img_first.svg" alt="" />
+          </div>
+        </section>
+      </section>
+
+      <section class="gallery">
+        <div ref="gallery_arrows" class="gallery_arrows">
+          <div class="gallery_arrow">
+            <div @click="onSliderArrowLeft" class="gallery_arrow_left"></div>
+          </div>
+          <div class="gallery_arrow">
+            <div @click="onSliderArrowRight" class="gallery_arrow_right"></div>
+          </div>
+        </div>
+        <div ref="gallery_frame" class="gallery_frame">
+          <div class="gallery_frame_net">
+            <div
+              v-for="img,idx in sliderImg"
+              :key="idx"
+              :class="img.size===true?'gallery_frame_net_560':'gallery_frame_net_280'"
+              class="gallery_frame_net_element"
+            >
+              <img
+                @click="onModalWindowOpen(img)"
+                class="gallery_frame_net_element_img"
+                :src="img.src"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="gallery_frame_pagination">
+            <div
+              v-for="circle,idx in sliderSteps"
+              :key="idx"
+              class="gallery_frame_pagination_circle"
+              :class="circle==sliderStep?'gallery_frame_pagination_active':'gallery_frame_pagination_not_active'"
+            ></div>
+          </div>
+        </div>
+      </section>
+
+      <footer class=""></footer>
+    </div>
+    <script src="https://unpkg.com/vue@2.7.14/dist/vue.js"></script>
+
+    <script>
+      var modal = {
+        props: {
+          modalData: {
+            type: Object,
+            required: true,
+          },
+        },
+        template: `<div v-if="modalData" class="modal">
+                      <div class="modal_card">
+                        <h5 class="modal_card_header">
+                            <span>{{modalData.title}}</span>
+                            <button @click="onModalWindowClose" type="button">X</button>
+                        </h5>
+                        <div class="modal_card_content">
+                          <div class="modal_card_content_img">
+                            <img class="" :src="modalData.src" alt="" />
+                          </div>
+                          <p class="modal_card_content_desc">{{modalData.text}}</p>
+                        </div>
+                      </div>
+                    </div>`,
+        methods: {
+          onModalWindowClose() {
+            this.$emit("window-close");
+          },
+        },
+      };
+      new Vue({
+        el: "#app",
+        components: {
+          modal: modal,
+        },
+        data: {
+          sliderSteps: [1, 2, 3],
+          sliderStep: 2,
+          sliderPhotoElements: 18,
+          sliderCount: 6,
+          sliderImgSize: [2, 6],
+          isModalActiv: false,
+          positionScroll: 0,
+          modalData: {
+            title: "Lorem ipsum dolor sit amet",
+            text: "Tonec ultricies lorem in mi tincidunt ornare. Etiam non turpis lacus. Donec scelerisque tellus in turpis tristique, et imperdiet sem mollis. Nam fermentum non sem id viverra. Sed quis arcu rutrum, ornare tortor id, lobortis metus. Fusce ornare ligula eu urna dignissim, ut condimentum odio tempor. Proin euest enim. Nam lacus leo, accumsan nec quam nec, fermentum molestie orci. Morbi in nisi vitae arcu rutrum ornare eu at nulla.",
+            src: `img/carousel/${0}.svg`,
+          },
+        },
+        computed: {
+          sliderImg() {
+            return this.imgElements.map((img, index) => {
+              return {
+                size: this.sliderImgSize.includes(index + 1),
+                src: `img/carousel/${img}.svg`,
+              };
+            });
+          },
+
+          imgElements() {
+            switch (this.sliderStep) {
+              case 1:
+                return this.range(
+                  this.sliderCount - this.sliderCount,
+                  this.sliderCount * this.sliderStep
+                );
+              case 2:
+                return this.range(
+                  this.sliderCount,
+                  this.sliderCount * this.sliderStep
+                );
+              case 3:
+                return this.range(
+                  this.sliderCount + this.sliderCount,
+                  this.sliderCount * this.sliderStep
+                );
+              default:
+                return this.range(
+                  this.sliderCount - this.sliderCount,
+                  this.sliderCount * this.sliderStep
+                );
+            }
+          },
+        },
+        mounted() {},
+        methods: {
+          onModalWindowOpen(img) {
+            document.body.style.overflow = "hidden";
+            this.isModalActiv = true;
+            this.modalData.src = img.src;
+          },
+          onModalWindowClose() {
+            this.isModalActiv = false;
+            document.body.style.overflow = "visible";
+          },
+          range(start, end) {
+            let array = [];
+            for (let i = start; i < end; i++) {
+              array.push(i);
+            }
+            return array;
+          },
+
+          onSliderArrowRight() {
+            this.sliderCountUp(this.sliderStep);
+          },
+          onSliderArrowLeft() {
+            this.sliderCountDown(this.sliderStep);
+          },
+
+          sliderCountUp(step) {
+            return step === this.sliderSteps.length
+              ? (this.sliderStep = 1)
+              : this.sliderStep++;
+          },
+          sliderCountDown(step) {
+            return step === 1
+              ? (this.sliderStep = this.sliderSteps.length)
+              : this.sliderStep--;
+          },
+        },
+      });
+    </script>
+
+    <style></style>
+  </body>
+</html>
